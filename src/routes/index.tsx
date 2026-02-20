@@ -11,7 +11,7 @@ export const Route = createFileRoute('/')({
 
 function Home() {
   const [count,setCount]=useState(0);
-  const [messages] = useState(["To Antonia","Hey Antonia","So I made this because I've really enjoyed spending time with you these past few weeks","And so I wanted to ask you a very important question", "Will you be my Valentine?"]);
+  const [messages] = useState(["To You","Hey you","So I made this because I've really enjoyed spending time with you these past few weeks","And so I wanted to ask you a very important question", "Will you be my Valentine?"]);
   const [accepted,setAccepted] = useState(false);
   const [responses] = useState(["Open","Yo","Me too!","the tension is killing me!"]);
 
@@ -25,7 +25,7 @@ function Home() {
       <div className="homeScreen">
       <div className="chatBox">
         See you on Feb 14th! 🌹
-        Don't just stand there, tell him the good news!
+        Don't just stand there, tell them the good news!
       </div>
     </div>
   );
